@@ -48,7 +48,7 @@ GTokenizer.parse("Good-day world")
 
 ```ruby
 GTokenizer.parse("HKEY_LOCAL_MACHINE AT&T")
-  #=> ["Good", "-", "day", "world"]
+  #=> ["HKEY_LOCAL_MACHINE", "AT&T"]
 ```
 
 Prices are treated as a single token.
